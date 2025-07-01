@@ -7,10 +7,7 @@ class TrollButtonsMod extends PolyMod {
   //setting name, id, eventtype, default value1, default value2 (optional), function
 
   pml.registerSetting("Add 100 Speed", "modAdd100", "keydown", "KeyM", "KeyN", (e) => {
-
-  
-
-  }
-}
+    
+      });
 
 export const polyMod = new TrollButtonsMod();
