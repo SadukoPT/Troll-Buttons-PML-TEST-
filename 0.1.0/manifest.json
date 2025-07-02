@@ -1,7 +1,7 @@
 {
     "polymod": {
-        "name": "Template Mod",
-        "id": "templatemod",
+        "name": "summerdrop",
+        "id": "summerdrop",
         "author": "Author",
         "targets": [
             "0.5.0"
