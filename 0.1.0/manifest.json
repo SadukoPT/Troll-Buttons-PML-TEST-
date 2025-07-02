@@ -1,9 +1,11 @@
 {
     "polymod": {
-        "name": "Example Mod",
-        "id": "examplemod",
-        "author": "Example Man",
-        "targets": ["0.5.0-beta5"],
+        "name": "Template Mod",
+        "id": "templatemod",
+        "author": "Author",
+        "targets": [
+            "0.5.0"
+        ],
         "main": "main.mod.js"
     },
     "dependencies": []
