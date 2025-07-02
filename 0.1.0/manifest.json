@@ -1,12 +1,10 @@
 {
     "polymod": {
-        "name": "Troll Buttons Mod",
-        "id": "troll-buttons",
-        "author": "Lockheed SR-71 Blackbird",
-        "targets": [
-            "0.5.0"
-        ],
+        "name": "Example Mod",
+        "id": "examplemod",
+        "author": "Example Man",
+        "targets": ["0.5.0-beta5"],
         "main": "main.mod.js"
     },
-    "dependencies": {}
+    "dependencies": []
 }
