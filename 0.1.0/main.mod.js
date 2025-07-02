@@ -7,9 +7,9 @@ class blocktest extends PolyMod {
        
         // COLORED PILLARS
 
-        pml.editorExtras.registerCategory("nsb", "pillargold")
-        pml.editorExtras.registerModel(`${this.modBaseUrl}/${this.modVersion}/assets/colorpillars.glb`)
-        pml.editorExtras.registerBlock("0", "nsb", "af83eebf50c302880377e4f8c1fb3b2ef96ae193e8d03c17e1fd77c73a847e63", "colorpillars", "pillargold", [[[-1, 0, -1], [0, 0, 0]]])
+        pml.editorExtras.registerCategory("summerdrop", "pillargold")
+        pml.editorExtras.registerModel(`${this.modBaseUrl}/${this.modVersion}/models/umbreklla.glb`)
+        pml.editorExtras.registerBlock("umbrella", "summerdrop", "af83eebf50c302880377e4f8c1fb3b2ef96ae193e8d03c17e1fd77c73a847e63", "umbrella", "asd", [[[-1, 0, -1], [0, 0, 0]]])
         
 
      2
