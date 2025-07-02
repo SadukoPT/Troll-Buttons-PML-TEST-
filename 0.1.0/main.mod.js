@@ -1,14 +1,16 @@
-import { PolyMod, MixinType, PolyModLoader } from "https://pml.orangy.cfd/PolyTrackMods/PolyModLoader/0.5.0/PolyModLoader.js";
-
-class TrollButtonsMod extends PolyMod {
-    init = function(pml) {
-      pml.registerSettingCategory("Add Speed Mod");
-    
-      //setting name, id, eventtype, default value1, default value2 (optional), function
-    
-      pml.registerSetting("Add 100 Speed", "modAdd100", "keydown", "KeyM", "KeyN", (e) => {
-        
-      });
+import { PolyMod } from "https://pml.crjakob.com/polytrackmods/PolyModLoader/0.5.0/PolyModLoader.js";
+class summerdropmod extends PolyMod {
+    init = (pml) => {
+        this.pml = pml; // so pml is accessible outside of init (not neccesary)
+        // regular init
     }
+    postInit = () => {
+        // post init
+    }
+    simInit = () => {
+        // sim init here
+    } 
 }
-export const polyMod = new TrollButtonsMod();
+
+
+export let polyMod = new summerdropmod();
